@@ -52,11 +52,12 @@ A documentação segue hierarquia de três níveis:
 | NUAD-001 | [Norma de Uso Aceitável de Dispositivos (BYOD)](normas/NUAD-001-Plural-Consulting.pdf) |
 | NCI-001 | [Norma de Classificação da Informação](normas/NCI-001-Plural-Consulting.pdf) |
 | NGI-001 | [Norma de Gestão de Incidentes de Segurança](normas/NGI-001-Plural-Consulting.pdf) |
+| NTF-001 | [Norma de Gestão de Terceiros e Fornecedores](normas/NTF-001-Plural-Consulting.pdf) |
 
 ---
 
 ## Sobre o Autor
 
-Profissional em transição para GRC, com background em comunicação corporativa e operações. Atualmente cursando ISO/IEC 27001 Auditor Interno e NIST CSF.
+Profissional de GRC com background em comunicação corporativa e operações, com foco em governança, gestão de riscos e conformidade aplicados ao contexto brasileiro.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erick-alves-sec/)
