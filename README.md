@@ -40,16 +40,18 @@ A documentação segue hierarquia de três níveis:
 
 ### Políticas
 
-| Código | Documento | Formato |
-|--------|-----------|---------|
-| PSI-001 | Política de Segurança da Informação | [PDF](politicas/PSI-001-Plural-Consulting.pdf) · [DOCX](politicas/PSI-001-Plural-Consulting.docx) |
+| Código | Documento |
+|--------|-----------|
+| PSI-001 | [Política de Segurança da Informação](politicas/PSI-001-Plural-Consulting.pdf) |
 
 ### Normas
 
-| Código | Documento | Formato |
-|--------|-----------|---------|
-| NCA-001 | Norma de Controle de Acesso | [PDF](normas/NCA-001-Plural-Consulting.pdf) · [DOCX](normas/NCA-001-Plural-Consulting.docx) |
-| NUAD-001 | Norma de Uso Aceitável de Dispositivos (BYOD) | [PDF](normas/NUAD-001-Plural-Consulting.pdf) · [DOCX](normas/NUAD-001-Plural-Consulting.docx) |
+| Código | Documento |
+|--------|-----------|
+| NCA-001 | [Norma de Controle de Acesso](normas/NCA-001-Plural-Consulting.pdf) |
+| NUAD-001 | [Norma de Uso Aceitável de Dispositivos (BYOD)](normas/NUAD-001-Plural-Consulting.pdf) |
+| NCI-001 | [Norma de Classificação da Informação](normas/NCI-001-Plural-Consulting.pdf) |
+| NGI-001 | [Norma de Gestão de Incidentes de Segurança](normas/NGI-001-Plural-Consulting.pdf) |
 
 ---
 
