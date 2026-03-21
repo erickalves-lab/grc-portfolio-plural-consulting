@@ -25,7 +25,8 @@ O cenário foi construído para refletir desafios reais enfrentados por pequenas
 ```
 grc-portfolio-plural-consulting/
 ├── politicas/          # Nível 1 — Documentos estratégicos
-└── normas/             # Nível 2 — Documentos normativos por tema
+├── normas/             # Nível 2 — Documentos normativos por tema
+└── procedimentos/      # Nível 3 — Procedimentos operacionais
 ```
 
 A documentação segue hierarquia de três níveis:
@@ -53,6 +54,15 @@ A documentação segue hierarquia de três níveis:
 | NCI-001 | [Norma de Classificação da Informação](normas/NCI-001-Plural-Consulting.pdf) |
 | NGI-001 | [Norma de Gestão de Incidentes de Segurança](normas/NGI-001-Plural-Consulting.pdf) |
 | NTF-001 | [Norma de Gestão de Terceiros e Fornecedores](normas/NTF-001-Plural-Consulting.pdf) |
+
+### Procedimentos
+
+| Código | Documento |
+|--------|-----------|
+| PCA-001 | [Procedimento de Concessão de Acesso](procedimentos/PCA-001-Plural-Consulting.pdf) |
+| PRA-001 | [Procedimento de Revogação de Acesso](procedimentos/PRA-001-Plural-Consulting.pdf) |
+| PPFD-001 | [Procedimento de Resposta a Perda ou Furto de Dispositivo](procedimentos/PPFD-001-Plural-Consulting.pdf) |
+| PRIS-001 | [Procedimento de Resposta a Incidentes de Segurança](procedimentos/PRIS-001-Plural-Consulting.pdf) |
 
 ---
 
