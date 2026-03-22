@@ -1,22 +1,34 @@
 # Portfólio GRC — Plural Consulting
 
-Repositório de documentação de Segurança da Informação desenvolvido sobre a empresa fictícia **Plural Consulting**, com o objetivo de demonstrar aplicação prática de frameworks GRC em um contexto organizacional realista.
+Repositório de documentação de Segurança da Informação desenvolvido sobre a empresa fictícia **Plural Consulting**, construído a partir de um cenário realista baseado em problemas comuns enfrentados por pequenas e médias empresas brasileiras.
 
 ---
 
-## Sobre a Plural Consulting
+## O Cenário
 
-A Plural Consulting é uma empresa fictícia de consultoria empresarial com foco no setor agro, de pequeno porte (~50 colaboradores), que após anos sem governança formal de segurança da informação — e após sofrer incidentes como golpes de boleto e um ataque de ransomware — decidiu implementar um programa estruturado de SI.
+A Plural Consulting é uma consultoria empresarial com foco no setor agro, com cerca de 50 colaboradores, operação predominantemente remota e uso de dispositivos pessoais (BYOD). Como muitas empresas do seu porte, ela cresceu sem estrutura formal de segurança da informação — a proteção dos dados dependia do bom senso de cada pessoa e de controles pontuais mantidos por um único profissional de TI.
 
-O cenário foi construído para refletir desafios reais enfrentados por pequenas e médias empresas: ausência de processos formais, equipe reduzida, modelo de trabalho remoto com dispositivos pessoais (BYOD) e necessidade de conformidade com a LGPD.
+Ao longo dos anos, a empresa acumulou riscos silenciosos: golpes de boleto recorrentes, acessos sem controle formal, dados pessoais de clientes e alunos trafegando por WhatsApp, terceiros sem contrato operando com acesso amplo a sistemas sensíveis. O ponto de ruptura veio quando um ataque de ransomware resultou na perda de um mês inteiro de dados — sem backup recente disponível para recuperação.
+
+Foi a partir desse contexto que a Plural decidiu implementar um programa formal de Segurança da Informação. Este repositório documenta esse programa do início ao fim.
 
 ---
 
-## Frameworks e Normas Aplicados
+## Como Foi Construído
 
-- ISO/IEC 27001:2022 — Sistema de Gestão de Segurança da Informação
-- ISO 31000:2018 — Gestão de Riscos
-- Lei nº 13.709/2018 — LGPD (Lei Geral de Proteção de Dados)
+O programa foi estruturado seguindo a hierarquia documental da **ISO/IEC 27001:2022**, com três níveis:
+
+- **Nível 1 — Política:** define os princípios e diretrizes estratégicas aprovadas pela alta direção
+- **Nível 2 — Normas:** detalham as regras por tema, derivadas da política
+- **Nível 3 — Procedimentos:** descrevem o passo a passo operacional para execução de cada controle
+
+Cada documento foi construído a partir do contexto real da Plural — os gaps identificados, os incidentes sofridos e as características específicas da operação (BYOD, terceiros sem contrato, ausência de classificação de dados) foram o ponto de partida para cada norma e procedimento. Nada foi criado de forma genérica.
+
+Os frameworks de referência utilizados foram:
+
+- **ISO/IEC 27001:2022** — estrutura do SGSI e controles do Anexo A
+- **ISO 31000:2018** — gestão de riscos
+- **LGPD (Lei 13.709/2018)** — conformidade no tratamento de dados pessoais
 
 ---
 
@@ -28,12 +40,6 @@ grc-portfolio-plural-consulting/
 ├── normas/             # Nível 2 — Documentos normativos por tema
 └── procedimentos/      # Nível 3 — Procedimentos operacionais
 ```
-
-A documentação segue hierarquia de três níveis:
-
-- **Nível 1 — Política:** diretrizes estratégicas aprovadas pela alta direção
-- **Nível 2 — Normas:** regras específicas por tema, derivadas da política
-- **Nível 3 — Procedimentos:** passo a passo operacional *(em desenvolvimento)*
 
 ---
 
@@ -63,6 +69,10 @@ A documentação segue hierarquia de três níveis:
 | PRA-001 | [Procedimento de Revogação de Acesso](procedimentos/PRA-001-Plural-Consulting.pdf) |
 | PPFD-001 | [Procedimento de Resposta a Perda ou Furto de Dispositivo](procedimentos/PPFD-001-Plural-Consulting.pdf) |
 | PRIS-001 | [Procedimento de Resposta a Incidentes de Segurança](procedimentos/PRIS-001-Plural-Consulting.pdf) |
+| PBVI-001 | [Procedimento de Backup e Verificação de Integridade](procedimentos/PBVI-001-Plural-Consulting.pdf) |
+| POT-001 | [Procedimento de Onboarding de Terceiros](procedimentos/POT-001-Plural-Consulting.pdf) |
+| PFTT-001 | [Procedimento de Offboarding de Terceiros](procedimentos/PFTT-001-Plural-Consulting.pdf) |
+| PDSI-001 | [Procedimento de Descarte Seguro de Informações](procedimentos/PDSI-001-Plural-Consulting.pdf) |
 
 ---
 
