@@ -38,7 +38,8 @@ Os frameworks de referência utilizados foram:
 grc-portfolio-plural-consulting/
 ├── politicas/          # Nível 1 — Documentos estratégicos
 ├── normas/             # Nível 2 — Documentos normativos por tema
-└── procedimentos/      # Nível 3 — Procedimentos operacionais
+├── procedimentos/      # Nível 3 — Procedimentos operacionais
+└── risk-assessment/    # Gestão de riscos — inventário, matriz e plano de tratamento
 ```
 
 ---
@@ -73,6 +74,12 @@ grc-portfolio-plural-consulting/
 | POT-001 | [Procedimento de Onboarding de Terceiros](procedimentos/POT-001-Plural-Consulting.pdf) |
 | PFTT-001 | [Procedimento de Offboarding de Terceiros](procedimentos/PFTT-001-Plural-Consulting.pdf) |
 | PDSI-001 | [Procedimento de Descarte Seguro de Informações](procedimentos/PDSI-001-Plural-Consulting.pdf) |
+
+### Risk Assessment
+
+| Documento | Descrição |
+|-----------|-----------|
+| [RiskAssessment-Plural-Consulting.xlsx](risk-assessment/RiskAssessment-Plural-Consulting.xlsx) | Inventário de 15 ativos, matriz de 24 riscos (Probabilidade × Impacto) e plano de tratamento com controles ISO 27001 referenciados |
 
 ---
 
